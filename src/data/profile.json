@@ -1,218 +1,452 @@
 {
-    "personal": {
-        "name": "Tolga Demirel",
-        "title": "Cyber Security Engineer @ CBERNET | Mobile Security & Malware Analysis",
-        "tagline": "Mobile Security | Threat Hunting | Mobile Reverse Engineering | SCADA/ICS Security",
-        "location": "Türkiye/Ankara",
-        "email": "tolgademirel6@gmail.com",
-        "social": {
-            "github": "https://github.com/TolgaTD",
-            "linkedin": "https://www.linkedin.com/in/tolga-demirel/",
-            "huggingface": "https://huggingface.co/TolgaTD",
-            "medium": "https://tolga-demirel.medium.com/"
-        }
+    "social": {
+        "github": "https://github.com/TolgaTD",
+        "linkedin": "https://www.linkedin.com/in/tolga-demirel/",
+        "huggingface": "https://huggingface.co/TolgaTD",
+        "medium": "https://tolga-demirel.medium.com/"
     },
-    "about": {
-        "summary": "Ofansif güvenlik bakış açısını savunma stratejileriyle birleştiren, siber güvenliğin derin teknik alanlarına tutkuyla odaklanmış bir mühendisim. Özellikle Android güvenliği, mobil zararlı yazılım analizi, sızma testleri ve tersine mühendislik konularında uzmanlaşmaktayım. Klasik yöntemlerin ötesine geçerek, yapay zeka destekli yeni nesil analiz araçları geliştirmekte ve 'inşa ederek kırma' felsefesiyle güvenliği kod düzeyinde ele almaktayım. Sürekli gelişen tehdit dünyasında, proaktif ve teknoloji odaklı çözümler üretmeyi hedefliyorum.",
-        "highlights": [
-            "Bilgisayar Mühendisi",
-            "Siber Güvenlik Ar-Ge Topluluğu Kurucusu",
-            "Erkenekon Ar-Ge Takımı Kurucusu",
-            "Gazi Üniversitesi Teknoloji Fakültesi Öğrenci Temsilcisi"
+    "tr": {
+        "ui": {
+            "about": "Hakkımda",
+            "experience": "Deneyim",
+            "awards": "Ödüller & Başarılar",
+            "news": "Haberler & Güncellemeler",
+            "bio": "bio.txt",
+            "skills": "skills.sh",
+            "tech_skills": "// Teknik Yetkinlikler",
+            "lang_switch": "EN"
+        },
+        "personal": {
+            "name": "Tolga Demirel",
+            "title": "Siber Güvenlik Mühendisi @ CBERNET | Mobil Güvenlik & Zararlı Analizi",
+            "tagline": "Mobil Güvenlik | Tehdit Avcılığı | Mobil Tersine Mühendislik | SCADA/ICS Güvenliği",
+            "location": "Türkiye/Ankara",
+            "email": "tolgademirel6@gmail.com"
+        },
+        "about": {
+            "summary": "Ofansif güvenlik bakış açısını savunma stratejileriyle birleştiren, siber güvenliğin derin teknik alanlarına tutkuyla odaklanmış bir mühendisim. Özellikle Android güvenliği, mobil zararlı yazılım analizi, sızma testleri ve tersine mühendislik konularında uzmanlaşmaktayım. Klasik yöntemlerin ötesine geçerek, yapay zeka destekli yeni nesil analiz araçları geliştirmekte ve 'inşa ederek kırma' felsefesiyle güvenliği kod düzeyinde ele almaktayım. Sürekli gelişen tehdit dünyasında, proaktif ve teknoloji odaklı çözümler üretmeyi hedefliyorum.",
+            "highlights": [
+                "Bilgisayar Mühendisi",
+                "Siber Güvenlik Ar-Ge Topluluğu Kurucusu",
+                "Erkenekon Ar-Ge Takımı Kurucusu",
+                "Gazi Üniversitesi Teknoloji Fakültesi Öğrenci Temsilcisi"
+            ]
+        },
+        "experience": [
+            {
+                "id": 1,
+                "role": "Cyber Security Engineer",
+                "company": "CBERNET Information Technologies",
+                "duration": "Kasım 2025 - Halen",
+                "description": "SOC izleme (Splunk, Wazuh), olay müdahalesi (Incident Response), web ve ağ sızma testleri. Kritik altyapı (SCADA/ICS) güvenliği üzerine özelleşmiş çalışmalar. Fortinet ürünleri yönetimi."
+            },
+            {
+                "id": 2,
+                "role": "Associate Cyber Security Specialist",
+                "company": "CBERNET Information Technologies",
+                "duration": "Mart 2025 - Kasım 2025",
+                "description": "Yarı zamanlı kapsamda güvenlik operasyonlarına destek, zafiyet tarama ve raporlama."
+            },
+            {
+                "id": 3,
+                "role": "Part-Time Cyber Security Researcher",
+                "company": "Gazi Üniversitesi Bilgi İşlem",
+                "duration": "Şubat 2024 - Haziran 2024",
+                "description": "Kampüs ağ güvenliği ve dışa açık servislerin sızma testleri."
+            },
+            {
+                "id": 4,
+                "role": "Cyber Security Research Intern",
+                "company": "Security For Everyone (S4E)",
+                "duration": "Ekim 2023 - Mayıs 2024",
+                "description": "Ofansif güvenlik metodolojileri, zafiyet araştırması ve PoC geliştirme süreçleri."
+            },
+            {
+                "id": 5,
+                "role": "Cyber Threat Intelligence Intern",
+                "company": "Brandefense",
+                "duration": "Temmuz 2023 - Eylül 2023",
+                "description": "Tehdit istihbaratı analizi, Dark Web monitoring ve saldırgan profilleme."
+            },
+            {
+                "id": 6,
+                "role": "University Representative",
+                "company": "BilgeAdam Technologies",
+                "duration": "Ekim 2022 - Ekim 2023",
+                "description": "Öğrenci ve sektör buluşmaları, etkinlik organizasyonu ve teknoloji elçiliği."
+            },
+            {
+                "id": 7,
+                "role": "IT Department Intern",
+                "company": "AselsanNet",
+                "duration": "Temmuz 2019 - Eylül 2019",
+                "description": "Ağ güvenliği, sistem yönetimi ve BT altyapısı süreçlerinde stajyer olarak görev aldım."
+            }
+        ],
+        "projects": [
+            {
+                "name": "KARAKAM",
+                "description": "Yapay Zeka Destekli & Tehdit İstihbaratı Entegreli İleri Seviye Mobil Uygulama Analiz Platformu (Bitirme Projesi).",
+                "link": "https://github.com/TolgaTD"
+            },
+            {
+                "name": "GÖKYEL",
+                "description": "Kuantum Dirençli ve Yapay Zeka Destekli Güvenli Uydu Haberleşme Sistemi. (Takım Kaptanı & Ar-Ge Lideri)",
+                "link": "https://github.com/TolgaTD"
+            },
+            {
+                "name": "BURKAY",
+                "description": "Yapay Zeka Destekli Lazer Güdümlü Hava Savunma Sistemi (Takım Kaptanı).",
+                "link": "https://github.com/TolgaTD"
+            },
+            {
+                "name": "Team HUMA",
+                "description": "Model Uydu Yer İstasyonu Arayüzü (C#) ve Veri İşleme Sistemleri Geliştirme.",
+                "link": "https://github.com/TolgaTD"
+            },
+            {
+                "name": "ObscuraVision",
+                "description": "Next-Gen Android Malware Analysis System.",
+                "link": "https://github.com/TolgaTD"
+            }
+        ],
+        "awards": [
+            {
+                "title": "IDEF 2025",
+                "organization": "Defenders of Tomorrow & Ergenekon Ar-Ge",
+                "date": "Temmuz 2025",
+                "description": "Ergenekon Ar-Ge takımı kurucu kaptanı olarak, 'Defenders of Tomorrow' programı kapsamında projelerimizi tanıtmak üzere IDEF 2025'te stant açmaya hak kazandık."
+            },
+            {
+                "title": "Proje Destek Hakkı (TÜBİTAK 2209-A)",
+                "organization": "TÜBİTAK",
+                "date": "Mart 2025",
+                "description": "Yapay zeka destekli ve lazer güdümlü hava savunma sistemi projemiz, TÜBİTAK 2209 kapsamında desteklenmeye hak kazandı."
+            },
+            {
+                "title": "Devlet Teşvikleri Tanıtım Günleri",
+                "organization": "Cumhurbaşkanlığı İletişim Başkanlığı",
+                "date": "Ocak 2025",
+                "description": "Geliştirdiğimiz savunma sanayii projelerini sergilemek üzere Devlet Teşvikleri Tanıtım Günleri'ne davet edildik ve stant katılımı sağladık."
+            },
+            {
+                "title": "En Özgün Yazılım Tasarımı Ödülü (5G Konumlandırma)",
+                "organization": "TEKNOFEST & TURKCELL",
+                "date": "Ağustos 2025",
+                "description": "5G Konumlandırma Yarışması kapsamında, geliştirdiğimiz özgün yazılım mimarisi ile birincilik/özgünlük ödülü."
+            },
+            {
+                "title": "Verimlilik Mansiyon Ödülü (GÖKYEL Projesi)",
+                "organization": "T.C. Ulaştırma ve Altyapı Bakanlığı",
+                "date": "Ekim 2025",
+                "description": "2053 Üniversiteler Arası Ar-Ge Fikir Yarışması'nda, Kuantum Dirençli Uydu Haberleşme projesi ile mansiyon ödülü."
+            },
+            {
+                "title": "Siber Güvenlik Hackathon 2.lik Ödülü",
+                "organization": "Avrupa Birliği Bilgi Merkezi & Samsun Üni.",
+                "date": "Mayıs 2024",
+                "description": "72 saatlik Gelişen Çağ Hackathonu'nda siber güvenlik kategorisinde geliştirilen proje ile derece."
+            },
+            {
+                "title": "Model Uydu Yarışması Finalisti (Team HUMA)",
+                "organization": "TEKNOFEST & TÜRKSAT",
+                "date": "Nisan 2023",
+                "description": "8. Model Uydu Yarışması'nda finale kalma başarısı ve uçuş/görev onayı."
+            },
+            {
+                "title": "Yazılım Alanı Türkiye 1.liği",
+                "organization": "TÜBİTAK 2204-A",
+                "date": "Mart 2020",
+                "description": "Lise Öğrencileri Araştırma Projeleri Yarışması'nda yazılım kategorisinde Türkiye birinciliği."
+            },
+            {
+                "title": "Orta İrtifa Roket Yarışması Katılımı",
+                "organization": "TEKNOFEST",
+                "date": "2023",
+                "description": "Roket takımı ile yarışma süreçlerinin tamamlanması ve atış hazırlığı."
+            }
+        ],
+        "skills": [
+            "eMAPT (Mobile PenTest)",
+            "eCTHPv2 (Threat Hunting)",
+            "eJPT (Junior PenTest)",
+            "ICCA (Cloud Associate)",
+            "Mobile Reverse Engineering",
+            "SCADA/ICS Security",
+            "SIEM (Splunk, Wazuh)",
+            "IDS/IPS & Firewall (Fortinet)",
+            "Switching & Routing",
+            "Docker & Containerization",
+            "Cloud Compute & IAM",
+            "LLM Fine Tuning & AI",
+            "Image Processing & Computer Vision",
+            "Python & Go & C#"
+        ],
+        "news": [
+            {
+                "id": 1,
+                "date": "Blog",
+                "title": "My eCTHP Experience: A 4-Day Marathon",
+                "content": "4 günlük yoğun tehdit avcılığı sınavı deneyimim ve 46 sayfalık rapor sürecim.",
+                "link": "https://tolga-demirel.medium.com/my-ecthp-experience-a-4-day-marathon-a-46-page-report-and-way-too-much-coffee-44e10a2fdc36"
+            },
+            {
+                "id": 2,
+                "date": "Blog",
+                "title": "My eMAPT Exam Experience",
+                "content": "Mobil uygulama güvenliği ve 'inşa etme' odaklı sınav yaklaşımı.",
+                "link": "https://tolga-demirel.medium.com/my-emapt-exam-experience-more-about-building-than-breaking-aca0c6c7ad7e"
+            },
+            {
+                "id": 3,
+                "date": "Blog",
+                "title": "Preparing for the ICCA Exam",
+                "content": "ICCA sınavına hazırlık süreci, ipuçları ve pratik soruları.",
+                "link": "https://tolga-demirel.medium.com/preparing-for-the-icca-exam-insights-tips-and-practice-questions-d98c181b7a2f"
+            },
+            {
+                "id": 4,
+                "date": "Blog",
+                "title": "My CAPT Exam Experience",
+                "content": "Certified Android Penetration Tester sınav süreci üzerine inceleme.",
+                "link": "https://tolga-demirel.medium.com/my-experience-with-the-certified-android-penetration-tester-capt-exam-a-review-of-d8a715767dff"
+            },
+            {
+                "id": 5,
+                "date": "Blog",
+                "title": "NATO — LOCKED SHIELDS",
+                "content": "Dünyanın en büyük siber savunma tatbikatı Locked Shields incelemesi.",
+                "link": "https://tolga-demirel.medium.com/nato-locked-shields-e87161c31cc6"
+            },
+            {
+                "id": 6,
+                "date": "Blog",
+                "title": "YARA Kuralları ve Çalışma Prensibi",
+                "content": "YARA kuralları nedir ve nasıl çalışır?",
+                "link": "https://tolga-demirel.medium.com/yara-yet-another-recursive-acronym-kurallar%C4%B1-ve-%C3%A7al%C4%B1%C5%9Fma-prensibi-80e9fe954f51"
+            }
         ]
     },
-    "experience": [
-        {
-            "id": 1,
-            "role": "Cyber Security Engineer",
-            "company": "CBERNET Information Technologies",
-            "duration": "Kasım 2025 - Halen",
-            "description": "SOC izleme (Splunk, Wazuh), olay müdahalesi (Incident Response), web ve ağ sızma testleri. Kritik altyapı (SCADA/ICS) güvenliği üzerine özelleşmiş çalışmalar. Fortinet ürünleri yönetimi."
+    "en": {
+        "ui": {
+            "about": "About Me",
+            "experience": "Experience",
+            "awards": "Awards & Achievements",
+            "news": "News & Updates",
+            "bio": "bio.txt",
+            "skills": "skills.sh",
+            "tech_skills": "// Technical Skills",
+            "lang_switch": "TR"
         },
-        {
-            "id": 2,
-            "role": "Associate Cyber Security Specialist",
-            "company": "CBERNET Information Technologies",
-            "duration": "Mart 2025 - Kasım 2025",
-            "description": "Yarı zamanlı kapsamda güvenlik operasyonlarına destek, zafiyet tarama ve raporlama."
+        "personal": {
+            "name": "Tolga Demirel",
+            "title": "Cyber Security Engineer @ CBERNET | Mobile Security & Malware Analysis",
+            "tagline": "Mobile Security | Threat Hunting | Mobile Reverse Engineering | SCADA/ICS Security",
+            "location": "Turkey/Ankara",
+            "email": "tolgademirel6@gmail.com"
         },
-        {
-            "id": 3,
-            "role": "Part-Time Cyber Security Researcher",
-            "company": "Gazi Üniversitesi Bilgi İşlem",
-            "duration": "Şubat 2024 - Haziran 2024",
-            "description": "Kampüs ağ güvenliği ve dışa açık servislerin sızma testleri."
+        "about": {
+            "summary": "I am a cyber security engineer passionate about the deep technical aspects of offensive security combined with defensive strategies. I specialize in Android security, mobile malware analysis, penetration testing, and reverse engineering. Going beyond classical methods, I develop next-generation AI-powered analysis tools and approach security at the code level with a 'build to break' philosophy. In a constantly evolving threat landscape, I aim to produce proactive and technology-driven solutions.",
+            "highlights": [
+                "Computer Engineer",
+                "Founder of Cyber Security R&D Community",
+                "Founder of Erkenekon R&D Team",
+                "Student Representative of Gazi University Faculty of Technology"
+            ]
         },
-        {
-            "id": 4,
-            "role": "Cyber Security Research Intern",
-            "company": "Security For Everyone (S4E)",
-            "duration": "Ekim 2023 - Mayıs 2024",
-            "description": "Ofansif güvenlik metodolojileri, zafiyet araştırması ve PoC geliştirme süreçleri."
-        },
-        {
-            "id": 5,
-            "role": "Cyber Threat Intelligence Intern",
-            "company": "Brandefense",
-            "duration": "Temmuz 2023 - Eylül 2023",
-            "description": "Tehdit istihbaratı analizi, Dark Web monitoring ve saldırgan profilleme."
-        },
-        {
-            "id": 6,
-            "role": "University Representative",
-            "company": "BilgeAdam Technologies",
-            "duration": "Ekim 2022 - Ekim 2023",
-            "description": "Öğrenci ve sektör buluşmaları, etkinlik organizasyonu ve teknoloji elçiliği."
-        },
-        {
-            "id": 7,
-            "role": "IT Department Intern",
-            "company": "AselsanNet",
-            "duration": "Temmuz 2019 - Eylül 2019",
-            "description": "Ağ güvenliği, sistem yönetimi ve BT altyapısı süreçlerinde stajyer olarak görev aldım."
-        }
-    ],
-    "projects": [
-        {
-            "name": "KARAKAM",
-            "description": "Yapay Zeka Destekli & Tehdit İstihbaratı Entegreli İleri Seviye Mobil Uygulama Analiz Platformu (Bitirme Projesi).",
-            "link": "https://github.com/TolgaTD"
-        },
-        {
-            "name": "GÖKYEL",
-            "description": "Kuantum Dirençli ve Yapay Zeka Destekli Güvenli Uydu Haberleşme Sistemi. (Takım Kaptanı & Ar-Ge Lideri)",
-            "link": "https://github.com/TolgaTD"
-        },
-        {
-            "name": "BURKAY",
-            "description": "Yapay Zeka Destekli Lazer Güdümlü Hava Savunma Sistemi (Takım Kaptanı).",
-            "link": "https://github.com/TolgaTD"
-        },
-        {
-            "name": "Team HUMA",
-            "description": "Model Uydu Yer İstasyonu Arayüzü (C#) ve Veri İşleme Sistemleri Geliştirme.",
-            "link": "https://github.com/TolgaTD"
-        },
-        {
-            "name": "ObscuraVision",
-            "description": "Next-Gen Android Malware Analysis System.",
-            "link": "https://github.com/TolgaTD"
-        }
-    ],
-    "skills": [
-        "eMAPT (Mobile PenTest)",
-        "eCTHPv2 (Threat Hunting)",
-        "eJPT (Junior PenTest)",
-        "ICCA (Cloud Associate)",
-        "Mobile Reverse Engineering",
-        "SCADA/ICS Security",
-        "SIEM (Splunk, Wazuh)",
-        "IDS/IPS & Firewall (Fortinet)",
-        "Switching & Routing",
-        "Docker & Containerization",
-        "Cloud Compute & IAM",
-        "LLM Fine Tuning & AI",
-        "Image Processing & Computer Vision",
-        "Python & Go & C#"
-    ],
-    "awards": [
-        {
-            "title": "IDEF 2025",
-            "organization": "Defenders of Tomorrow & Ergenekon Ar-Ge",
-            "date": "Temmuz 2025",
-            "description": "Ergenekon Ar-Ge takımı kurucu kaptanı olarak, 'Defenders of Tomorrow' programı kapsamında projelerimizi tanıtmak üzere IDEF 2025'te stant açmaya hak kazandık."
-        },
-        {
-            "title": "Proje Destek Hakkı (TÜBİTAK 2209-A)",
-            "organization": "TÜBİTAK",
-            "date": "Mart 2025",
-            "description": "Yapay zeka destekli ve lazer güdümlü hava savunma sistemi projemiz, TÜBİTAK 2209 kapsamında desteklenmeye hak kazandı."
-        },
-        {
-            "title": "Devlet Teşvikleri Tanıtım Günleri",
-            "organization": "Cumhurbaşkanlığı İletişim Başkanlığı",
-            "date": "Ocak 2025",
-            "description": "Geliştirdiğimiz savunma sanayii projelerini sergilemek üzere Devlet Teşvikleri Tanıtım Günleri'ne davet edildik ve stant katılımı sağladık."
-        },
-        {
-            "title": "En Özgün Yazılım Tasarımı Ödülü (5G Konumlandırma)",
-            "organization": "TEKNOFEST & TURKCELL",
-            "date": "Ağustos 2025",
-            "description": "5G Konumlandırma Yarışması kapsamında, geliştirdiğimiz özgün yazılım mimarisi ile birincilik/özgünlük ödülü."
-        },
-        {
-            "title": "Verimlilik Mansiyon Ödülü (GÖKYEL Projesi)",
-            "organization": "T.C. Ulaştırma ve Altyapı Bakanlığı",
-            "date": "Ekim 2025",
-            "description": "2053 Üniversiteler Arası Ar-Ge Fikir Yarışması'nda, Kuantum Dirençli Uydu Haberleşme projesi ile mansiyon ödülü."
-        },
-        {
-            "title": "Siber Güvenlik Hackathon 2.lik Ödülü",
-            "organization": "Avrupa Birliği Bilgi Merkezi & Samsun Üni.",
-            "date": "Mayıs 2024",
-            "description": "72 saatlik Gelişen Çağ Hackathonu'nda siber güvenlik kategorisinde geliştirilen proje ile derece."
-        },
-        {
-            "title": "Model Uydu Yarışması Finalisti (Team HUMA)",
-            "organization": "TEKNOFEST & TÜRKSAT",
-            "date": "Nisan 2023",
-            "description": "8. Model Uydu Yarışması'nda finale kalma başarısı ve uçuş/görev onayı."
-        },
-        {
-            "title": "Yazılım Alanı Türkiye 1.liği",
-            "organization": "TÜBİTAK 2204-A",
-            "date": "Mart 2020",
-            "description": "Lise Öğrencileri Araştırma Projeleri Yarışması'nda yazılım kategorisinde Türkiye birinciliği."
-        },
-        {
-            "title": "Orta İrtifa Roket Yarışması Katılımı",
-            "organization": "TEKNOFEST",
-            "date": "2023",
-            "description": "Roket takımı ile yarışma süreçlerinin tamamlanması ve atış hazırlığı."
-        }
-    ],
-    "news": [
-        {
-            "id": 1,
-            "date": "Blog",
-            "title": "My eCTHP Experience: A 4-Day Marathon",
-            "content": "4 günlük yoğun tehdit avcılığı sınavı deneyimim ve 46 sayfalık rapor sürecim.",
-            "link": "https://tolga-demirel.medium.com/my-ecthp-experience-a-4-day-marathon-a-46-page-report-and-way-too-much-coffee-44e10a2fdc36"
-        },
-        {
-            "id": 2,
-            "date": "Blog",
-            "title": "My eMAPT Exam Experience",
-            "content": "Mobil uygulama güvenliği ve 'inşa etme' odaklı sınav yaklaşımı.",
-            "link": "https://tolga-demirel.medium.com/my-emapt-exam-experience-more-about-building-than-breaking-aca0c6c7ad7e"
-        },
-        {
-            "id": 3,
-            "date": "Blog",
-            "title": "Preparing for the ICCA Exam",
-            "content": "ICCA sınavına hazırlık süreci, ipuçları ve pratik soruları.",
-            "link": "https://tolga-demirel.medium.com/preparing-for-the-icca-exam-insights-tips-and-practice-questions-d98c181b7a2f"
-        },
-        {
-            "id": 4,
-            "date": "Blog",
-            "title": "My CAPT Exam Experience",
-            "content": "Certified Android Penetration Tester sınav süreci üzerine inceleme.",
-            "link": "https://tolga-demirel.medium.com/my-experience-with-the-certified-android-penetration-tester-capt-exam-a-review-of-d8a715767dff"
-        },
-        {
-            "id": 5,
-            "date": "Blog",
-            "title": "NATO — LOCKED SHIELDS",
-            "content": "Dünyanın en büyük siber savunma tatbikatı Locked Shields incelemesi.",
-            "link": "https://tolga-demirel.medium.com/nato-locked-shields-e87161c31cc6"
-        },
-        {
-            "id": 6,
-            "date": "Blog",
-            "title": "YARA Kuralları ve Çalışma Prensibi",
-            "content": "YARA kuralları nedir ve nasıl çalışır?",
-            "link": "https://tolga-demirel.medium.com/yara-yet-another-recursive-acronym-kurallar%C4%B1-ve-%C3%A7al%C4%B1%C5%9Fma-prensibi-80e9fe954f51"
-        }
-    ]
+        "experience": [
+            {
+                "id": 1,
+                "role": "Cyber Security Engineer",
+                "company": "CBERNET Information Technologies",
+                "duration": "Nov 2025 - Present",
+                "description": "SOC monitoring (Splunk, Wazuh), Incident Response, web and network penetration testing. Specialized work on Critical Infrastructure (SCADA/ICS) security. Management of Fortinet products."
+            },
+            {
+                "id": 2,
+                "role": "Associate Cyber Security Specialist",
+                "company": "CBERNET Information Technologies",
+                "duration": "Mar 2025 - Nov 2025",
+                "description": "Part-time support for security operations, vulnerability scanning, and reporting."
+            },
+            {
+                "id": 3,
+                "role": "Part-Time Cyber Security Researcher",
+                "company": "Gazi University IT Department",
+                "duration": "Feb 2024 - Jun 2024",
+                "description": "Campus network security and penetration testing of public-facing services."
+            },
+            {
+                "id": 4,
+                "role": "Cyber Security Research Intern",
+                "company": "Security For Everyone (S4E)",
+                "duration": "Oct 2023 - May 2024",
+                "description": "Offensive security methodologies, vulnerability research, and PoC development processes."
+            },
+            {
+                "id": 5,
+                "role": "Cyber Threat Intelligence Intern",
+                "company": "Brandefense",
+                "duration": "Jul 2023 - Sep 2023",
+                "description": "Threat intelligence analysis, Dark Web monitoring, and threat actor profiling."
+            },
+            {
+                "id": 6,
+                "role": "University Representative",
+                "company": "BilgeAdam Technologies",
+                "duration": "Oct 2022 - Oct 2023",
+                "description": "Student and industry meetups, event organization, and technology ambassadorship."
+            },
+            {
+                "id": 7,
+                "role": "IT Department Intern",
+                "company": "AselsanNet",
+                "duration": "Jul 2019 - Sep 2019",
+                "description": "Worked as an intern in network security, system administration, and IT infrastructure processes."
+            }
+        ],
+        "projects": [
+            {
+                "name": "KARAKAM",
+                "description": "AI-Supported & Threat Intelligence Integrated Advanced Mobile Application Analysis Platform (Graduation Project).",
+                "link": "https://github.com/TolgaTD"
+            },
+            {
+                "name": "GÖKYEL",
+                "description": "Quantum Resistant and AI-Supported Secure Satellite Communication System. (Team Captain & R&D Lead)",
+                "link": "https://github.com/TolgaTD"
+            },
+            {
+                "name": "BURKAY",
+                "description": "AI-Supported Laser Guided Air Defense System (Team Captain).",
+                "link": "https://github.com/TolgaTD"
+            },
+            {
+                "name": "Team HUMA",
+                "description": "Model Satellite Ground Station Interface (C#) and Data Processing Systems Development.",
+                "link": "https://github.com/TolgaTD"
+            },
+            {
+                "name": "ObscuraVision",
+                "description": "Next-Gen Android Malware Analysis System.",
+                "link": "https://github.com/TolgaTD"
+            }
+        ],
+        "awards": [
+            {
+                "title": "IDEF 2025",
+                "organization": "Defenders of Tomorrow & Erkenekon R&D",
+                "date": "July 2025",
+                "description": "As the founding captain of the Erkenekon R&D team, we qualified to open a stand at IDEF 2025 to promote our projects under the 'Defenders of Tomorrow' program."
+            },
+            {
+                "title": "Project Support Right (TUBITAK 2209-A)",
+                "organization": "TUBITAK",
+                "date": "March 2025",
+                "description": "Our AI-supported and laser-guided air defense system project qualified for support under TUBITAK 2209."
+            },
+            {
+                "title": "State Incentives Promotion Days",
+                "organization": "Presidency Directorate of Communications",
+                "date": "January 2025",
+                "description": "We were invited to the State Incentives Promotion Days to exhibit our developed defense industry projects and participated with a stand."
+            },
+            {
+                "title": "Most Original Software Design Award (5G Positioning)",
+                "organization": "TEKNOFEST & TURKCELL",
+                "date": "August 2025",
+                "description": "First Place/Originality award with our unique software architecture developed within the scope of the 5G Positioning Competition."
+            },
+            {
+                "title": "Efficiency Honorable Mention Award (GÖKYEL Project)",
+                "organization": "Ministry of Transport and Infrastructure",
+                "date": "October 2025",
+                "description": "Honorable mention award with the Quantum Resistant Satellite Communication project in the 2053 Inter-University R&D Idea Competition."
+            },
+            {
+                "title": "Cyber Security Hackathon 2nd Place",
+                "organization": "EU Info Centre & Samsun Univ.",
+                "date": "May 2024",
+                "description": "Ranked in the cyber security category with the project developed in the 72-hour Developing Age Hackathon."
+            },
+            {
+                "title": "Model Satellite Competition Finalist (Team HUMA)",
+                "organization": "TEKNOFEST & TURKSAT",
+                "date": "April 2023",
+                "description": "Success in reaching the finals and flight/mission approval in the 8th Model Satellite Competition."
+            },
+            {
+                "title": "Turkey 1st Place in Software Category",
+                "organization": "TUBITAK 2204-A",
+                "date": "March 2020",
+                "description": "First place in Turkey in the software category at the High School Students Research Projects Competition."
+            },
+            {
+                "title": "Medium Altitude Rocket Competition Participation",
+                "organization": "TEKNOFEST",
+                "date": "2023",
+                "description": "Completion of competition processes and launch preparation with the rocket team."
+            }
+        ],
+        "skills": [
+            "eMAPT (Mobile PenTest)",
+            "eCTHPv2 (Threat Hunting)",
+            "eJPT (Junior PenTest)",
+            "ICCA (Cloud Associate)",
+            "Mobile Reverse Engineering",
+            "SCADA/ICS Security",
+            "SIEM (Splunk, Wazuh)",
+            "IDS/IPS & Firewall (Fortinet)",
+            "Switching & Routing",
+            "Docker & Containerization",
+            "Cloud Compute & IAM",
+            "LLM Fine Tuning & AI",
+            "Image Processing & Computer Vision",
+            "Python & Go & C#"
+        ],
+        "news": [
+            {
+                "id": 1,
+                "date": "Blog",
+                "title": "My eCTHP Experience: A 4-Day Marathon",
+                "content": "My 4-day intense threat hunting exam experience and the 46-page reporting process.",
+                "link": "https://tolga-demirel.medium.com/my-ecthp-experience-a-4-day-marathon-a-46-page-report-and-way-too-much-coffee-44e10a2fdc36"
+            },
+            {
+                "id": 2,
+                "date": "Blog",
+                "title": "My eMAPT Exam Experience",
+                "content": "Insights on mobile application security and the 'build-focused' exam approach.",
+                "link": "https://tolga-demirel.medium.com/my-emapt-exam-experience-more-about-building-than-breaking-aca0c6c7ad7e"
+            },
+            {
+                "id": 3,
+                "date": "Blog",
+                "title": "Preparing for the ICCA Exam",
+                "content": "Preparation process, tips, and practice questions for the ICCA exam.",
+                "link": "https://tolga-demirel.medium.com/preparing-for-the-icca-exam-insights-tips-and-practice-questions-d98c181b7a2f"
+            },
+            {
+                "id": 4,
+                "date": "Blog",
+                "title": "My CAPT Exam Experience",
+                "content": "A review of the Certified Android Penetration Tester exam process.",
+                "link": "https://tolga-demirel.medium.com/my-experience-with-the-certified-android-penetration-tester-capt-exam-a-review-of-d8a715767dff"
+            },
+            {
+                "id": 5,
+                "date": "Blog",
+                "title": "NATO — LOCKED SHIELDS",
+                "content": "Review of Locked Shields, the world's largest cyber defense exercise.",
+                "link": "https://tolga-demirel.medium.com/nato-locked-shields-e87161c31cc6"
+            },
+            {
+                "id": 6,
+                "date": "Blog",
+                "title": "YARA Rules and Working Principle",
+                "content": "What are YARA rules and how do they work?",
+                "link": "https://tolga-demirel.medium.com/yara-yet-another-recursive-acronym-kurallar%C4%B1-ve-%C3%A7al%C4%B1%C5%9Fma-prensibi-80e9fe954f51"
+            }
+        ]
+    }
 }

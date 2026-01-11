@@ -1,16 +1,14 @@
 import React from 'react';
-import profileData from '../data/profile.json';
 import { Rss, ExternalLink } from 'lucide-react';
-
-const NewsFeed = () => {
+const NewsFeed = ({ data }) => {
     return (
         <section style={{ padding: '4rem 0', marginBottom: '4rem' }}>
             <h2 style={{ borderBottom: '2px solid var(--color-primary)', display: 'inline-block', paddingBottom: '0.5rem' }}>
-                <span style={{ color: 'var(--color-primary)' }}>03.</span> Haberler & Güncellemeler
+                <span style={{ color: 'var(--color-primary)' }}>04.</span> {data.ui.news}
             </h2>
 
             <div style={{ marginTop: '2rem', display: 'grid', gap: '1.5rem' }}>
-                {profileData.news.map((item) => (
+                {data.news.map((item) => (
                     <a
                         key={item.id}
                         href={item.link || '#'}

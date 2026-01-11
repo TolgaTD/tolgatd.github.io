@@ -9,6 +9,8 @@
   /* Darker Green */
   --color-accent: #ff003c;
   /* Cyberpunk Red/Pink for errors/alerts */
+  --color-cyan: #00d9f7;
+  /* Cyberpunk Cyan for variety */
   --font-mono: 'Courier New', Courier, monospace;
 }
 
@@ -70,6 +72,7 @@ a:hover {
   box-shadow: 0 0 10px rgba(0, 255, 65, 0.1);
   margin-bottom: 2rem;
   backdrop-filter: blur(5px);
+  border-radius: 12px;
 }
 
 .terminal-header {
@@ -92,6 +95,7 @@ a:hover {
   font-family: var(--font-mono);
   font-size: 1rem;
   transition: all 0.3s;
+  border-radius: 8px;
 }
 
 .btn:hover {
